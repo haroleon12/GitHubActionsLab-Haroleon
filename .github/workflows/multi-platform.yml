@@ -1,11 +1,12 @@
 ## YAML Template.
 
+# Trigger PR test
 name: Multi-Platform Workflow
 
 on:
   pull_request:
     branches:
-      - master  # updated from main
+      - master  
 
 jobs:
   ubuntu-job:
